@@ -20,8 +20,8 @@ body {
 nav {
     background-color: #ff6900;
     
-
     padding: 10px;
+
 }
 
 nav .container > *{
@@ -41,7 +41,7 @@ nav .logo {
     width: 100px;
 }
 
- .icons ul, .nav-links ul, .social ul {
+ .icons ul, .nav-links ul, .social ul, .info ul {
     display: flex;
     list-style-type: none;
     gap: 14px;
@@ -54,6 +54,8 @@ nav .logo {
  .container .logo img {
     max-width: 100px;
     margin: 0 auto;
+    text-align: center;
+    
  }
 
  /* inizio prodotti */
@@ -75,21 +77,33 @@ nav .logo {
 }
 
 .product-card {
-    width: 30%  ;
+    width: 31%  ;
     display: flex;
     flex-direction: column;
     padding: 15px;
-    border: 1px solid #000000;
     background-color: #fff;
    
+}
+
+
+.product-card .details-product .off  {
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+}
+
+
+.details-product > * {
+    padding: 1px 0px ;
 }
 
 /* fine prodotti */
 
 
 footer  {
-    background-color: #7fffd4;
+    background-color: #1a1a1a;
     /* test */
+   
 
     margin-top: 16px;
     
@@ -98,16 +112,16 @@ footer  {
 }
 
 footer .container {
-   
-    
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 footer  > * {
-
-    background-color: #ffb6c1;
-    /* test */
-
     padding: 4px 8px;
+}
+
+
+footer .container .social ul li{
+    list-style-type: none;
 }
