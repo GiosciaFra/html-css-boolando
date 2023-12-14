@@ -49,34 +49,13 @@ nav .logo {
 
  
 
-/* .product-container {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
-    padding-top: 20px;
-    
-}
-
-.product-card {
-    width: 100%;
-    padding: 15px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-} */
 
 .product-container {
+
+    
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-
-
 
     display: flex;
     flex-wrap: wrap;
