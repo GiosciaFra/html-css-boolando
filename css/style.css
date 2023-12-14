@@ -10,6 +10,8 @@
     margin-left: auto;
     margin-right: auto;
 
+    position: relative;
+
 }
 
 body {
@@ -42,10 +44,33 @@ nav .logo {
     width: 100px;
 }
 
+
+
+
+.icons ul, .nav-links ul, .social ul, .info ul {
+    display: flex;
+    list-style-type: none;
+    gap: 14px;
+}
+
+.nav-links ul,  .icons ul li img {
+    color: white;
+}
+
+.container .logo img {
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+/* inizio prodotti */
+
+
 .label {
     position: absolute;
-    top: 431px; 
-    left: 137px; 
+    top: 352px; 
+    left: auto; 
     z-index: 1;
     background-color: red; 
     padding: 6px 12px;
@@ -53,29 +78,6 @@ nav .logo {
     font-weight: bolder;
     font-size:small;
 }
-
-
-
- .icons ul, .nav-links ul, .social ul, .info ul {
-    display: flex;
-    list-style-type: none;
-    gap: 14px;
- }
-
- .nav-links ul,  .icons ul li img {
-    color: white;
- }
-
- .container .logo img {
-    max-width: 100px;
-    margin: 0 auto;
-    text-align: center;
-    
- }
-
- /* inizio prodotti */
-
-
 .product-container {
 
 
@@ -89,16 +91,20 @@ nav .logo {
     align-items: center;
     gap: 20px;
     padding-top: 20px;
+
 }
 
 .product-card {
-    width: 31%  ;
+    width: 31% ;
     display: flex;
     flex-direction: column;
     padding: 15px;
     background-color: #fff;
+    position: relative;
+    
    
 }
+
 
 
 .product-card .details-product .off  {
@@ -121,6 +127,7 @@ h3 {
 p {
     font-size: small;
 }
+
 
 /* fine prodotti */
 
