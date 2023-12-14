@@ -35,11 +35,26 @@ nav .container {
     display: flex;
 
     justify-content: space-between;
+    
 }
 
 nav .logo {
     width: 100px;
 }
+
+.label {
+    position: absolute;
+    top: 431px; 
+    left: 137px; 
+    z-index: 1;
+    background-color: red; 
+    padding: 6px 12px;
+    color: white;
+    font-weight: bolder;
+    font-size:small;
+}
+
+
 
  .icons ul, .nav-links ul, .social ul, .info ul {
     display: flex;
