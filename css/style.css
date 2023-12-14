@@ -90,6 +90,7 @@ nav .logo {
     display: inline-block;
     color: red;
     font-weight: bold;
+    font-size: medium;
 }
 
 
@@ -97,13 +98,20 @@ nav .logo {
     padding: 1px 0px ;
 }
 
+
+h3 {
+    font-size:medium;
+}
+
+p {
+    font-size: small;
+}
+
 /* fine prodotti */
 
 
 footer  {
     background-color: #1a1a1a;
-    /* test */
-   
 
     margin-top: 16px;
     
@@ -117,11 +125,16 @@ footer .container {
     color: white;
 }
 
-footer  > * {
-    padding: 4px 8px;
-}
+
 
 
 footer .container .social ul li{
     list-style-type: none;
+    padding-top: 10px;
+
+}
+
+footer .info ul li {
+    font-size: small;
+    padding-top: 10px;
 }
