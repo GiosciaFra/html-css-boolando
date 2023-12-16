@@ -19,8 +19,23 @@ body {
 }
 
 /* inizio header */
-nav {
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+
     background-color: #ff6900;
+
+    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.4);
+}
+
+
+
+nav {
+    
     
     padding: 10px;
 
@@ -112,6 +127,10 @@ nav .logo {
     color: red;
     font-weight: bold;
     font-size: medium;
+}
+
+.product-container .product-card img {
+    padding-top: 50px;
 }
 
 
